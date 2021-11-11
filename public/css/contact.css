@@ -1,0 +1,44 @@
+.contact-us__form {
+	display: flex;
+	flex-direction: column;
+	max-width: 600px;
+	background-color: bisque;
+	line-height: 1.5;
+	padding: 50px;
+}
+
+.contact-us__form label {
+	font-size: small;
+	text-transform: capitalize;
+}
+
+.contact-us__form textarea {
+	width: 500px;
+	outline: none;
+	border: 1px solid palevioletred;
+	resize: none;
+	margin: 10px 0;
+	padding: 5px;
+}
+
+.contact-us__form button {
+	align-self: flex-start;
+	padding: 10px 25px;
+	text-transform: uppercase;
+	outline: none;
+	border: none;
+	background-color: palevioletred;
+	color: #fff;
+	cursor: pointer;
+}
+
+.contact-us__form button:hover,
+.contact-us__form button:active {
+	background-color: rgb(212, 73, 120);
+}
+
+.message__info {
+	background-color: rgb(75, 102, 44);
+	color: lavenderblush;
+	padding: 100px;
+}

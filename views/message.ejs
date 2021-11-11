@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+        <%- include('./partials/_head.ejs') %>
+		<link rel="stylesheet" href="/css/contact.css" />
+	</head>
+	<body>
+        <%- include('./partials/_header.ejs') %>
+        <main class="container">
+		<h1 class="about__title"><%= info %></h1>
+        <hr/>
+        <h3 class="message__header">Your message</h3>
+		<p class="message__info"><%= message %></p>
+        </main>
+	</body>
+</html>

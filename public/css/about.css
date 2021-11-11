@@ -1,0 +1,12 @@
+.about__title {
+	font-weight: 600;
+
+	padding: 10px;
+}
+
+.about__description {
+	max-width: 600px;
+	background-color: bisque;
+	line-height: 1.5;
+	padding: 10px 50px;
+}

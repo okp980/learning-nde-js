@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+        <%- include('./partials/_head.ejs') %>
+		<link rel="stylesheet" href="/css/contact.css" />
+	</head>
+	<body>
+        <%- include('./partials/_header.ejs') %>
+        <main class="container">
+		<h1 class="about__title"><%= info %></h1>
+		<form method='POST' action='/contactus' class='contact-us__form'>
+            <label for="message">enter your message</label>
+            <textarea name='message' rows="10"></textarea>
+            <button type='submit'>send</button>
+        </form>
+        </main>
+	</body>
+</html>

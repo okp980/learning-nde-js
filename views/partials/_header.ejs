@@ -1,11 +1,25 @@
 <header>
 	<div class="container">
-		<div class="logo">sazz</div>
+		<div class="logo"><a href="/">sazzz</a></div>
 		<nav>
 			<ul>
-				<li><a href="/">home</a></li>
-				<li><a href="/about-us">about us</a></li>
-				<li><a href="/contact-us">contact us</a></li>
+				<li>
+					<a href="/" class="<%= path === '/' ? 'active' : '' %>">home</a>
+				</li>
+				<li>
+					<a
+						class="<%= path === '/about-us' ? 'active' : '' %>"
+						href="/about-us"
+						>about us</a
+					>
+				</li>
+				<li>
+					<a
+						class="<%= path === '/contact-us' ? 'active' : '' %>"
+						href="/contact-us"
+						>contact us</a
+					>
+				</li>
 			</ul>
 		</nav>
 	</div>

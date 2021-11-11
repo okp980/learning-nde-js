@@ -45,7 +45,8 @@ header .container {
 	align-items: center;
 }
 
-.logo {
+.logo a {
+	color: #fff;
 	font-size: 70px;
 	font-weight: 700;
 }
